@@ -1,0 +1,37 @@
+.signup-form{
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 40px;
+    background: gold;
+    
+}
+
+
+.login-page{
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 40px;
+    background: brown;
+   
+
+}
+
+.home-page{
+    background-image: url("../images/download.jpeg");
+    height: 720px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+    box-shadow: 0px 0px 10px 0px black;
+    
+}
+
+.homepage-text{
+    color: yellow;
+    text-align: center;
+    font-size: medium;
+
+}
