@@ -1,1 +1,1 @@
-WSGI_APPLICATION = 'todoapp.wsgi.application'
+web: gunicorn todoapp.wsgi:application

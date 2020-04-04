@@ -53,7 +53,7 @@ def signup(request):
             return redirect('login')  
         else:
             # return error message
-            # if error return the error through a form ibject created above
+            # if error return the error through a form object created above
             users = User.objects.all()
             context = {
                 'form' : form,
